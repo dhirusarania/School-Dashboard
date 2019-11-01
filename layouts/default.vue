@@ -22,7 +22,7 @@ export default {
     Footer
   },
   mounted() {
-    document.body.classList.add('theme-dark')
+    // document.body.classList.add('theme-dark')
   }
 }
 </script>
@@ -146,7 +146,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: white;
+  color: black;
 }
 
 h3 {
@@ -186,7 +186,7 @@ textarea:focus {
 }
 
 table {
-  background-color: #212744;
+  /* background-color: #212744; */
   border-radius: 8px;
   table-layout: fixed;
 }
@@ -200,7 +200,7 @@ table {
 }
 
 td {
-  color: white;
+  color: black;
   /* height: 40px; */
   /* line-height: 40px!important; */
 }
@@ -215,13 +215,13 @@ table > thead > tr > th {
   border-bottom: 1px solid #ffffff4f;
 }
 
-table > thead {
+/* table > thead {
   background-color: #212744;
 }
 
 table > tbody {
   background-color: #262c49;
-}
+} */
 
 .table-hover > tbody > tr:hover {
   z-index: 200;
@@ -454,7 +454,7 @@ ul {
 }
 
 .theme-dark {
-  background-color: #F8F8F8;
+  background-color: #e4e4e4;
   color: #c2c6dc !important;
 }
 
@@ -1295,11 +1295,11 @@ ul {
   font-size: 0.9rem;
 }
 
-.theme-dark .vs-con-table .vs-con-tbody .vs-table--tbody-table tr {
+/* .theme-dark .vs-con-table .vs-con-tbody .vs-table--tbody-table tr {
   background: #262c49;
-}
+} */
 
-.theme-dark .vs-con-table .con-edit-td,
+/* .theme-dark .vs-con-table .con-edit-td,
 .theme-dark
   .vs-con-table
   .vs-con-tbody
@@ -1313,11 +1313,11 @@ ul {
   .vs-table--thead
   tr {
   background: #212744;
-}
+} */
 
-.theme-dark .vs-con-table .is-selected .tr-values {
+/* .theme-dark .vs-con-table .is-selected .tr-values {
   background: #212744 !important;
-}
+} */
 
 .theme-dark .apexcharts-canvas .apexcharts-tooltip.light {
   background: #212744;
@@ -1674,17 +1674,17 @@ ul {
   background: #262c49;
 }
 
-.vs-table--tbody-table tr {
+/* .vs-table--tbody-table tr {
   background-color: #0f1642 !important;
 }
 
 .vs-con-table {
   background-color: #0f1642 !important;
-}
+} */
 
-table.stripe tr:nth-child(2n) {
+/* table.stripe tr:nth-child(2n) {
   background: #212744 !important;
-}
+} */
 
 .btn-border {
   border-style: solid;
@@ -1706,7 +1706,7 @@ table.stripe tr:nth-child(2n) {
 }
 
 .v-container {
-  background-color: #0f1642 !important;
+  background-color: #fff !important;
   padding: 20px 30px 30px;
   border-radius: 7px;
   margin-left: -15px;
